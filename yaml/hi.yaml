@@ -20,10 +20,14 @@ testLabels:
         - label: xn--h1b1at2i
           variantTLDAllocatability: []
   unallocatableLabels:
+    # RFC 5891 restrictions on placement of U+002D (-) ⍟ - Start
+    - xn----uud9b6a3fe
+    # RFC 5891 restrictions on placement of U+002D (-) ⍟ - End
+    - xn----0vdmh
+    # RFC 5891 restrictions on placement of U+002D (-) ⍟ - Third and Fourth Position
+    - xn-----lnf2d2c
     # RFC 5891 restrictions on placement of combining marks
     - xn--11b4aya5ec
-    # RFC 5891 restrictions on placement of U+002D (-) ⍟
-    - xn-----xof7ar5f
     # Section 7 WLE 1: Rule for Nukta which restricts its preceding characters
     - xn--r2bezmlb
     # Section 7, WLE 2, 3: Halant or matra characters can only be preceded by consonant or a Nukta which is preceded by a consonant
@@ -33,4 +37,4 @@ testLabels:
     # Section 7, WLE 7: A vowel is not allowed to follow an H
     - xn--o1bz0eq3e8d
     # restrictions on mixing digits
-    - xn--4-tud0d8b5b0qz
+    - xn--1-tud9b6a3fe8z
